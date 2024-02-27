@@ -2,7 +2,7 @@ from transformers import PretrainedConfig
 
 
 class Config(PretrainedConfig):
-    model_type = "CS"
+    model_type = "bert"
     def __init__(
         self,
         num_layers=12,
